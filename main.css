@@ -21,3 +21,16 @@ caption {
   border-collapse: separate;
   padding: 0.5rem;
 }
+
+a {
+  color: aliceblue;
+}
+
+a:visited {
+  color: lightgray;
+}
+
+a:hover,
+a:active {
+  color: #eee;
+}
