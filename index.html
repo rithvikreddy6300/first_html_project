@@ -13,20 +13,33 @@
   </head>
 
   <body>
-    <h1>Welcome to SR Custom Shirts</h1>
+    <header>
+      <h1>Welcome to SR Custom Shirts</h1>
 
-    <hr />
-    <!-- need to add nav list at last-->
-    <nav>
-      <ul>
-        <li>
-          <a href="hours.html">Working Hours</a>
-        </li>
-        <li>
-          <a href="contact_us.html"> Contact us</a>
-        </li>
-      </ul>
-    </nav>
+      <hr />
+
+      <nav aria-label="primary_nav">
+        <ul>
+          <li>
+            <a href="#about"
+              >About <abbr title="S Rithvik Custom Shirts">SRCS</abbr>.</a
+            >
+          </li>
+
+          <li>
+            <a href="#price_list">Prices.</a>
+          </li>
+
+          <li>
+            <a href="hours.html">Working Hours</a>
+          </li>
+
+          <li>
+            <a href="contact_us.html"> Contact us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
     <figure>
       <img
@@ -38,98 +51,122 @@
       />
       <figcaption>A few sample custom designs</figcaption>
     </figure>
+
     <hr />
 
-    <h2>About <abbr title="S Rithvik Custom Shirts">SRCS</abbr></h2>
-    <p>
-      we <abbr title="S Rithvik Custom Shirts">SRCS</abbr> is a small startup
-      formed in 2022. <strong>Our love</strong> for the custom made 👕 👕 👕
-      brought us together to build our company. We belive wearing what we like
-      and whats on our mind is the <strong>most fashionable</strong> way to
-      live.
-    </p>
+    <main>
+      <section id="about">
+        <h2>About <abbr title="S Rithvik Custom Shirts">SRCS</abbr></h2>
 
-    <h3>Shirt fact</h3>
-
-    <aside>
-      <details>
-        <summary>Guess when is the first ever printed T-shirt made?</summary>
-        <p>In 1959 in:</p>
-        <address>xyz location, London, Great Britan.</address>
         <p>
-          To learn more about T-shirts visit this
-          <a href="https://en.wikipedia.org/wiki/T-shirt#Screen_printing"
-            >link.</a
-          >
+          we <abbr title="S Rithvik Custom Shirts">SRCS</abbr> is a small
+          startup formed in 2022. <strong>Our love</strong> for the custom made
+          👕 👕 👕 brought us together to build our company. We belive wearing
+          what we like and whats on our mind is the
+          <strong>most fashionable</strong> way to live.
         </p>
-      </details>
-    </aside>
+
+        <h3>Shirt fact</h3>
+
+        <aside>
+          <details>
+            <summary>
+              Guess when is the first ever printed T-shirt made?
+            </summary>
+            <p>In 1959 in:</p>
+            <address>xyz location, London, Great Britan.</address>
+            <p>
+              To learn more about T-shirts visit this
+              <a href="https://en.wikipedia.org/wiki/T-shirt#Screen_printing"
+                >link.</a
+              >
+            </p>
+          </details>
+        </aside>
+      </section>
+
+      <hr />
+
+      <section id="price_list">
+        <h2>Our Price List</h2>
+
+        <table>
+          <caption>
+            Price List
+          </caption>
+
+          <thead>
+            <tr>
+              <th scope="col">Type</th>
+              <th scope="col">Size</th>
+              <th scope="col">Cost</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <th rowspan="3" scope="row">T-shirt</th>
+              <td>S</td>
+              <td>250</td>
+            </tr>
+            <tr>
+              <td>M</td>
+              <td>300</td>
+            </tr>
+            <tr>
+              <td>L</td>
+              <td>350</td>
+            </tr>
+            <tr>
+              <th rowspan="3" scope="row">Shirt</th>
+              <td>S</td>
+              <td>350</td>
+            </tr>
+            <tr>
+              <td>M</td>
+              <td>400</td>
+            </tr>
+            <tr>
+              <td>L</td>
+              <td>450</td>
+            </tr>
+            <tr>
+              <th rowspan="3" scope="row">Hoodies</th>
+              <td>S</td>
+              <td>550</td>
+            </tr>
+            <tr>
+              <td>M</td>
+              <td>500</td>
+            </tr>
+            <tr>
+              <td>L</td>
+              <td>650</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td colspan="3">
+                S-Small, M-Medium, L-Large
+                <br />
+                * Larger sizes must be ordered seperately and may cost extra
+                charges
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+
+        <br />
+
+        <a href="#">Back to Top.</a>
+      </section>
+    </main>
 
     <hr />
 
-    <h2>Our Price List</h2>
-
-    <table>
-      <th colspan="3">Price list</th>
-      <tr>
-        <th>Type</th>
-        <th>Size</th>
-        <th>Cost</th>
-      </tr>
-
-      <tr>
-        <th rowspan="3">T-shirt</th>
-        <td>S</td>
-        <td>250</td>
-      </tr>
-      <tr>
-        <td>M</td>
-        <td>300</td>
-      </tr>
-      <tr>
-        <td>L</td>
-        <td>350</td>
-      </tr>
-      <tr>
-        <th rowspan="3">Shirt</th>
-        <td>S</td>
-        <td>350</td>
-      </tr>
-      <tr>
-        <td>M</td>
-        <td>400</td>
-      </tr>
-      <tr>
-        <td>L</td>
-        <td>450</td>
-      </tr>
-      <tr>
-        <th rowspan="3">Hoodies</th>
-        <td>S</td>
-        <td>550</td>
-      </tr>
-      <tr>
-        <td>M</td>
-        <td>500</td>
-      </tr>
-      <tr>
-        <td>L</td>
-        <td>650</td>
-      </tr>
-
-      <tr>
-        <td colspan="3">
-          S-Small, M-Medium, L-Large
-          <br />
-          * Larger sizes must be ordered seperately and may cost extra charges
-        </td>
-      </tr>
-    </table>
-
-    <a href="#">Back to Top.</a>
-
-    <hr />
-
-    <p>Copyright &copy; SR Custom Shirts</p>
+    <footer>
+      <p>Copyright &copy; SR Custom Shirts</p>
+    </footer>
   </body>
 </html>
